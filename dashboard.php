@@ -85,59 +85,57 @@
             </div>
         </div>
     </div>
-<h2 id="recent-section"><i class="fa fa-chart-line"></i> Recent Sales</h2>
-<div class="row row2">
-  <table class="sales-table">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>House</th>
-        <th>Customer</th>
-        <th>Amount Paid</th>
-        <th>Payment Type</th>
-        <th>Status</th> <!-- New column for Status -->
-        <th>Agent</th> <!-- New column for Agent -->
-        <!-- Add more headers if needed -->
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2024-04-22</td>
-        <td>Seaside Villa</td>
-        <td>Jane Smith</td>
-        <td>$750,000</td>
-        <td>Cash</td>
-        <td>Closed</td> <!-- New data for Status -->
-        <td>Agent A</td> <!-- New data for Agent -->
-      </tr>
+    <h2 id="recent-section"><i class="fa fa-chart-line"></i> Recent Sales</h2>
+    <div class="row row2">
+        <table class="sales-table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>House</th>
+                <th>Customer</th>
+                <th>Amount Paid</th>
+                <th>Payment Type</th>
+                <th>Status</th> <!-- New column for Status -->
+                <th>Agent</th> <!-- New column for Agent -->
+                <!-- Add more headers if needed -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2024-04-22</td>
+                <td>Seaside Villa</td>
+                <td>Jane Smith</td>
+                <td>$750,000</td>
+                <td>Cash</td>
+                <td>Closed</td> <!-- New data for Status -->
+                <td>Agent A</td> <!-- New data for Agent -->
+            </tr>
       <!-- Add more rows with sales data -->
-    </tbody>
-  </table>
-</div>
-<!-- Customer Feedback Section -->
-<h2 id="feedback-section"><i class="fa fa-comments"></i> Customer Feedback</h2>
-<div class="row row3">
-  <div class="feedback-display">
-    <!-- Feedback Item -->
-    <div class="feedback-item">
-      <p class="feedback-date">2024-04-22</p>
-      <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
-      <p class="feedback-customer">- Jane Smith</p>
+        </tbody>
+        </table>
     </div>
-    <div class="feedback-item">
-      <p class="feedback-date">2024-04-22</p>
-      <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
-      <p class="feedback-customer">- Jane Smith</p>
+    <!-- Customer Feedback Section -->
+    <h2 id="feedback-section"><i class="fa fa-comments"></i> Customer Feedback</h2>
+    <div class="row row3">
+        <div class="feedback-display">
+        <!-- Feedback Item -->
+            <div class="feedback-item">
+                <p class="feedback-date">2024-04-22</p>
+                <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
+                <p class="feedback-customer">- Jane Smith</p>
+            </div>
+            <div class="feedback-item">
+                <p class="feedback-date">2024-04-22</p>
+                <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
+                <p class="feedback-customer">- Jane Smith</p>
+            </div>
+            <div class="feedback-item">
+                <p class="feedback-date">2024-04-22</p>
+                <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
+                <p class="feedback-customer">- Jane Smith</p>
+            </div>
+            <!-- More feedback items -->
+        </div>
     </div>
-    <div class="feedback-item">
-      <p class="feedback-date">2024-04-22</p>
-      <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
-      <p class="feedback-customer">- Jane Smith</p>
-    </div>
-    <!-- More feedback items -->
-  </div>
-</div>
-
-
 </body>
 </html>
