@@ -110,6 +110,24 @@
                 <td>Closed</td> <!-- New data for Status -->
                 <td>Agent A</td> <!-- New data for Agent -->
             </tr>
+            <tr>
+                <td>2024-04-22</td>
+                <td>Seaside Villa</td>
+                <td>Jane Smith</td>
+                <td>$750,000</td>
+                <td>Cash</td>
+                <td>Closed</td> <!-- New data for Status -->
+                <td>Agent A</td> <!-- New data for Agent -->
+            </tr>
+            <tr>
+                <td>2024-04-22</td>
+                <td>Seaside Villa</td>
+                <td>Jane Smith</td>
+                <td>$750,000</td>
+                <td>Cash</td>
+                <td>Closed</td> <!-- New data for Status -->
+                <td>Agent A</td> <!-- New data for Agent -->
+            </tr>
       <!-- Add more rows with sales data -->
         </tbody>
         </table>

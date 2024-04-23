@@ -93,7 +93,7 @@
                 </div>
             </div>
         </nav>
-        <iframe src="dashboard.php" frameborder="0" width="100%" height="1300px"></iframe>
+        <iframe src="dashboard.php" frameborder="0" width="100%" height="100%"></iframe>
     <script>
         // Fonction pour afficher ou cacher le dropdown lors du clic sur le lien
         var dropdownToggles = document.querySelectorAll('.w3-dropdown-toggle');
