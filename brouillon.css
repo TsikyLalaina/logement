@@ -1,0 +1,42 @@
+.row{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    width:18%;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    padding:0.01em 16px;
+    color:#fff;
+    padding-top:16px;
+    padding-bottom:16px;
+}
+.stat-icon{
+    float:left;
+}
+.stat-number{
+    float:right;
+}
+.clear{
+    content:"";
+    display:table;
+    clear:both;
+}
+h3{
+    font-size:24px;
+}
+h4{
+    font-size:20px;
+}
+h1,h3,h4{
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight:400;
+    margin:10px 0
+}
+.xxxlarge{
+    font-size:48px;
+}

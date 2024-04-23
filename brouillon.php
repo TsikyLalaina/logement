@@ -1,51 +1,79 @@
-<hmtl>
-<header>
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="brouillon.css">
+<link rel="stylesheet" href="css/all.css">
 <style>
-
-.sub-menu-link{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    margin: 12px 0;
-    color: #525252;
-}
-.sub-menu-link p{
-    color: #525252;
-    width: 100%;
-}
-.sub-menu-link t{
-    font-size: 17px;
-    color: #525252;
-    transition: 0.5s;
-}
-.sub-menu-link:hover t{
-    transform: translateX(5px);
-}
-.sub-menu-link:hover  p{
-    font-weight: 680;
-}
 </style>
-</header>
+</head>
 <body>
-<div class="sub-menu-wrap" id="subMenu">
-                    <div class="sub-menu">
-                        <a href="#" class="sub-menu-link">
-                            <p>Edit Profile</p>
-                            <t>></t>
-                        </a>
-                        <a href="#" class="sub-menu-link">
-                            <p>Settings & Privacy</p>
-                            <t>></t>
-                        </a>
-                        <a href="#" class="sub-menu-link">
-                            <p>Help & Support</p>
-                            <t>></t>
-                        </a>
-                        <a href="logout.php" class="sub-menu-link">
-                            <p>Logout</p>
-                            <t>></t>
-                        </a>
-                    </div>
-</div>
+    <header class="container" style="color: #000000;">
+        <h1><b><i class="fa fa-dashboard"></i> My Dashboard</b></h1>
+    </header>
+  <div class="row row1">
+    <div class="column">
+      <div class="container" style="background-color:#f44336;">
+        <div class="stat-icon"><i class="fa fa-comment xxxlarge"></i></div>
+        <div class="stat-number">
+          <h3>52</h3>
+        </div>
+        <div class="clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="container" style="background-color:#e5d789;">
+        <div class="stat-icon"><i class="fa fa-comment xxxlarge"></i></div>
+        <div class="stat-number">
+          <h3>52</h3>
+        </div>
+        <div class="clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="container" style="background-color:#a14576;">
+        <div class="stat-icon"><i class="fa fa-comment xxxlarge"></i></div>
+        <div class="stat-number">
+          <h3>52</h3>
+        </div>
+        <div class="clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="container" style="background-color:#b3a664;">
+        <div class="stat-icon"><i class="fa fa-comment xxxlarge"></i></div>
+        <div class="stat-number">
+          <h3>52</h3>
+        </div>
+        <div class="clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="container" style="background-color:#127398;">
+        <div class="stat-icon"><i class="fa fa-comment xxxlarge"></i></div>
+        <div class="stat-number">
+          <h3>52</h3>
+        </div>
+        <div class="clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+    <div class="column">
+      <div class="container" style="background-color:#a58798;">
+        <div class="stat-icon"><i class="fa fa-comment xxxlarge"></i></div>
+        <div class="stat-number">
+          <h3>52</h3>
+        </div>
+        <div class="clear"></div>
+        <h4>Messages</h4>
+      </div>
+    </div>
+  </div>
 </body>
-</hmtl>
+</html>
