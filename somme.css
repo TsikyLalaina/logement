@@ -27,19 +27,31 @@
     top: 0;
     bottom: 0;
   }
-  
-  .sidebar a {
-    padding: 15px 25px;
-    text-decoration: none;
+  .sidebar a t{
+    transition: 0.5s;
+  }
+  .sidebar a p{
     font-size: 18px;
     color: #f1f1f1;
-    display: block;
-    transition: 0.3s ease-out all;
+    width: 100%;
+    transition: 0.5s;
   }
-  
+  .sidebar a {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .sidebar a:hover t{
+    transform: translateX(5px);
+  }
+  .sidebar a:hover p{
+    transform: translateX(5px);
+  }
   .sidebar a:hover {
-    color: rgb(193, 115, 13);
-    background: rgba(241, 241, 241, 0.2);
+    font-weight: 680;
   }
   
   .sidebar i {
