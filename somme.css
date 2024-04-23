@@ -1,0 +1,162 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Boîte de modèle de bordure */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+}
+.hidden {
+    display: none;
+}
+  
+  /* Styles généraux */
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    width: 280px;
+    background-color: rgb(193, 115, 13);
+    padding-top: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .sidebar a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s ease-out all;
+  }
+  
+  .sidebar a:hover {
+    color: rgb(193, 115, 13);
+    background: rgba(241, 241, 241, 0.2);
+  }
+  
+  .sidebar i {
+    margin-right: 10px;
+  }
+  
+  .line {
+    width: 240px;
+    height: 1.5px;
+    background: rgb(222, 149, 55);
+    margin-left: 20px;
+  }
+  
+/* Styles spécifiques au formulaire d'inscription */
+.registration-form {
+    flex: 1;
+    padding: 20px;
+    margin-left: 280px; /* Pour laisser de l'espace pour la barre latérale */
+    text-align: center;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 20px;
+    text-align: center; 
+    color: rgb(193, 115, 13);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  /* Ajustement pour rendre l'entrée plus longue */
+  .form-group input,
+  .form-group_date input,
+  .form-group select,
+  .form-group textarea {
+    flex: 2; /* Augmentation de la flexibilité pour rendre l'entrée plus longue */
+    padding: 10px;
+    border: 1px solid rgb(193, 115, 13);
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    margin-left: 20px; /* Réduction de la marge à gauche pour un alignement plus précis */
+  }
+  
+  .form-group_date {
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 85px;
+  }
+  
+  .form-group label {
+    width: 200px; /* Largeur fixe pour les étiquettes */
+    text-align: right; /* Alignement du texte à droite */
+    margin-right: 20px; /* Marge à droite pour l'espace entre l'étiquette et l'élément de formulaire */
+  }
+  
+  .registration-form button {
+    width: 50%; /* Largeur du bouton à 50% de la largeur du formulaire */
+    margin: 20px auto 0; 
+    padding: 10px;
+    background-color: rgb(193, 115, 13);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  /* Styles spécifiques à la liste des clients */
+  table {
+    width: calc(100% - 300px);
+    margin-top: 50px;
+    margin-left: 280px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .x-button {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: #f1f1f1;
+    width: 35px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .edit {
+    width: 35px;
+    padding: 10px;
+    background: rgb(98, 0, 255);
+    color: #f1f1f1;
+    border-radius: 2px;
+  }
+  
+  .delete {
+    width: 35px;
+    padding: 10px;
+    background: red;
+    color: #f1f1f1;
+    border-radius: 2px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    width: 80px;
+  }
+  
