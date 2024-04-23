@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.css"/>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+    <title>GESTION DE LOGEMENT</title>
+    <style>
+        /* Mettez ici le CSS que j'ai proposé précédemment */
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <nav class="sidebar" id="Sidebar">
+            <div class="container">
+                <div class="Pict"><img src="assets/img/audric.jpg" alt="audric"></div>
+                <h3 class="w3-wide"><b>Audric</b></h3>
+            </div>
+            <div class="w3-pad">
+                <div class="line"></div>
+                <a href="#" class="w3-button" ><p>Dashboard</p><t>></t></a>
+                <div class="line"></div>
+                <a href="#tabliste" class="w3-button" ><p>Profile</p><t>></t></a>
+                <div class="line"></div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown1"><p>Housing</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown1" class="dropdown">
+                    <a href="ajouter_logement.html" class="w3-button&" >Ajouter</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown2"><p>Client</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown2" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown3"><p>Payment</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown3" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown4"><p>Agency</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown4" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown5"><p>Area</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown5" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown6"><p>Land</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown6" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown7"><p>Sale</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown7" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown8"><p>Neiborhood</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown8" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+                <a href="#" class="w3-button w3-dropdown-toggle" data-target="dropdown9"><p>Rent</p><t>></t></a>
+                <div class="line"></div>
+                <div id="dropdown9" class="dropdown">
+                    <a href="#" class="w3-button&">Option 1</a>
+                    <a href="#" class="w3-button&">Option 2</a>
+                    <a href="#" class="w3-button&">Option 3</a>
+                    <a href="#" class="w3-button&">Option 4</a>
+                </div>
+            </div>
+        </nav>
+        <div class="supercontener">
+            <div id="bashboard">
+                <div class="row row1">
+                    <div class="column" style="background-color:#f44336;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-users xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>150</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>Customers</h4>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#8a2be2;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-home xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>120</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>Houses</h4>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#de3163;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-building xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>5</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>Agencies</h4>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#6495ed;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-handshake xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>76</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>Sales</h4>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#4CAF50;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-dollar-sign xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>$1,204</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>Today's Sales</h4>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#2196F3;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-hand-holding-usd xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>$5,678</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>This Week's Sales</h4>
+                        </div>
+                    </div>
+                    <div class="column" style="background-color:#FFC107;">
+                        <div class="container">
+                            <div class="stat-icon"><i class="fa fa-chart-line xxxlarge"></i></div>
+                            <div class="stat-number">
+                                <h3>$23,456</h3>
+                            </div>
+                            <div class="clear"></div>
+                            <h4>This Month's Sales</h4>
+                        </div>
+                    </div>
+                </div>
+            <h2 id="recent-section"><i class="fa fa-chart-line"></i> Recent Sales</h2>
+            <div class="row row2">
+              <table class="sales-table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>House</th>
+                    <th>Customer</th>
+                    <th>Amount Paid</th>
+                    <th>Payment Type</th>
+                    <th>Status</th> <!-- New column for Status -->
+                    <th>Agent</th> <!-- New column for Agent -->
+                    <!-- Add more headers if needed -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2024-04-22</td>
+                    <td>Seaside Villa</td>
+                    <td>Jane Smith</td>
+                    <td>$750,000</td>
+                    <td>Cash</td>
+                    <td>Closed</td> <!-- New data for Status -->
+                    <td>Agent A</td> <!-- New data for Agent -->
+                  </tr>
+                  <!-- Add more rows with sales data -->
+                </tbody>
+              </table>
+            </div>
+            <!-- Customer Feedback Section -->
+            <h2 id="feedback-section"><i class="fa fa-comments"></i> Customer Feedback</h2>
+            <div class="row row3">
+              <div class="feedback-display">
+                <!-- Feedback Item -->
+                <div class="feedback-item">
+                  <p class="feedback-date">2024-04-22</p>
+                  <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
+                  <p class="feedback-customer">- Jane Smith</p>
+                </div>
+                <div class="feedback-item">
+                  <p class="feedback-date">2024-04-22</p>
+                  <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
+                  <p class="feedback-customer">- Jane Smith</p>
+                </div>
+                <div class="feedback-item">
+                  <p class="feedback-date">2024-04-22</p>
+                  <p class="feedback-text">"I had a great experience with the service. Highly recommend!"</p>
+                  <p class="feedback-customer">- Jane Smith</p>
+                </div>
+                <!-- More feedback items -->
+              </div>
+            </div>
+            </div>
+            <table id="tabliste">
+                <thead>
+                  <tr>
+                    <th>Picture</th>
+                    <th>Adresse</th>
+                    <th>Agent</th>
+                    <th>Views</th>
+                    <th>Previews</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                    <th><input type="checkbox"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Lignes de données à remplir -->
+                  <tr>
+                    <td><img src="assets/img/testimonials-bg.jpg" alt="Client Picture"></td>
+                    <td>123 Rue de la Paix</td>
+                    <td>tsiky</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td><a href="#" class="edit"><i class="fas fa-edit"></i></a></td>
+                    <td><a href="#" class="delete"><i class="fas fa-trash-alt"></i></a></td>
+                    <td><input type="checkbox"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="assets/img/testimonials-bg.jpg" alt="Client Picture"></td>
+                    <td>456 Avenue des Champs-Élysées</td>
+                    <td>audric brillant</td>
+                    <td>80</td>
+                    <td>40</td>
+                    <td><a href="#" class="edit"><i class="fas fa-edit"></i></a></td>
+                    <td><a href="#" class="delete"><i class="fas fa-trash-alt"></i></a></td>
+                    <td><input type="checkbox"></td>
+                  </tr>
+                  <!-- Ajoutez plus de lignes selon le nombre de clients -->
+                </tbody>
+            </table>
+        </div>
+
+    </div>>
+    
+
+    <script>
+        // Fonction pour afficher ou cacher le dropdown lors du clic sur le lien
+        var dropdownToggles = document.querySelectorAll('.w3-dropdown-toggle');
+        dropdownToggles.forEach(function(toggle) {
+            toggle.addEventListener('click', function() {
+                var targetId = this.getAttribute('data-target');
+                var dropdown = document.getElementById(targetId);
+                if (dropdown.style.display === 'block') {
+                    dropdown.style.display = 'none';
+                } else {
+                    dropdown.style.display = 'block';
+                }
+            });
+        });
+    </script>
+    <script src="assets/aos/aos.js"></script>
+</body>
+</html>
