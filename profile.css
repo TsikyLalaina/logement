@@ -1,0 +1,79 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+.x-button { 
+    background-color: red; 
+    border: none; 
+    cursor: pointer; 
+    color: #f1f1f1;
+    width: 35px;
+    text-align: center;
+    padding: 10px; 
+    border-radius: 5px;
+}
+.edit{
+    width: 40px;
+    padding: 10px;
+    background: rgb(98, 0, 255);
+    color:#f1f1f1;
+    border-radius: 2px;
+}
+.edit:hover{
+    background: rgb(84, 2, 216);
+}
+.delete{
+    width: 40px;
+    padding: 10px;
+    background: red;
+    color:#f1f1f1;
+    border-radius: 2px;
+}
+.delete:hover{
+    background:rgb(198, 3, 3);
+}
+
+th {
+    background-color: #333333;
+    color:#f1f1f1;
+}
+tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+
+img{
+    width: 80px;
+}
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;
+}
+ /* Styles pour la barre de recherche */
+ .search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    outline: none;
+}
+.search-container input[type=text]:focus {
+    border-color: #4CAF50;
+}
